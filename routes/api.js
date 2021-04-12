@@ -391,7 +391,23 @@ router.get('/data/jadwalshalat', async (req, res, next) => {
             
         if(!kota) return res.json({ status : false, creator : 'Zhirrr', message : "masukan parameter kota"})
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/Zhirrr-Database/main/adzan/${kota}/2021/03.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/Zhirrr-Database/master/${kota}/2021/04.json`))
+        .then(response => response.json())
+        .then(data => {
+        var result = data;
+             res.json({
+                 result
+             })
+         })
+         .catch(e => {
+         	res.json(loghandler.error)
+})
+})
+
+
+router.get('/data/jadwalshalat/listkota', async (req, res, next) => {
+           
+       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/Zhirrr-Database/main/kota.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
