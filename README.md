@@ -89,9 +89,16 @@ Islamic Api V2 adalah Api yang berisi data2 islami yang lebih lengkap daripada v
 | Random Quotes Islami | Menampilkan Quotes2 Islami Secara Random | - | api/data/quotes |
 | Random Gambar Islami | Menampilkan Gambar2 Islami Secara Random | - | api/data/gambar |
 
+Note Tambahan : Jika Ingin Melihat ListKota Dari Fitur Jadwal Shalat, Gunakan
+```
+api/data/jadwalshalat/listkota
+
+```
+Untuk Melihat
+
 # Live API
 - https://islamic-api-indonesia.herokuapp.com
 - Gunakan Parameter Yg Sama Yaa :)
 - 100 % Open Source
 - Like This Repository Okeee 🎉
-- Note : Ini Adalah Public API Yang Digunakan Bersama-Sama, Jadi Kita Harus Memakai Nya Dengan Bijak Okey 👍
+- Special Note : Ini Adalah Public API Yang Digunakan Bersama-Sama, Jadi Kita Harus Memakai Nya Dengan Bijak Okey 👍
