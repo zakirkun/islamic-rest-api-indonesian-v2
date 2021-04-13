@@ -51,7 +51,7 @@ Islamic Api V2 adalah Api yang berisi data2 islami yang lebih lengkap daripada v
 | Data Wirid JSON | Menampilkan Data Doa Wirid | api/data/json/wirid |
 | Data Tahlil JSON | Menampilkan Data Doa Tahlil | api/data/json/tahlil |
 | Data AyatKursi JSON | Menampilkan Data Doa AyatKursi | api/data/json/ayatkursi |
-| Data DoaHarian JSON | Menampilkan Data Doa Harian | api/data/json/harian |
+| Data DoaHarian JSON | Menampilkan Data Doa Harian | api/data/json/doaharian |
 | Data BacaanShalat JSON | Menampilkan Data Doa BacaanShalat | api/data/json/bacaanshalat |
 | Data NiatShalat JSON | Menampilkan Data NiatShalat | api/data/json/niatshalat |
 | Data KisahNabi JSON | Menampilkan Data Kisah Para Nabi | api/data/json/kisahnabi |
