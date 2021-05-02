@@ -391,7 +391,7 @@ router.get('/data/jadwalshalat', async (req, res, next) => {
             
         if(!kota) return res.json({ status : false, creator : 'Zhirrr', message : "masukan parameter kota"})
 
-       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/Zhirrr-Database/shalat/${kota}/2021/04.json`))
+       fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/Zhirrr-Database/shalat/${kota}/2021/05.json`))
         .then(response => response.json())
         .then(data => {
         var result = data;
