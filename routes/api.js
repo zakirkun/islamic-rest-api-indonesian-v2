@@ -138,6 +138,30 @@ router.get('/data/json/hadith/tirmidzi', (req, res) => {
     res.sendFile(__path + '/database/hadits/tirmidzi.json')
 })
 
+router.get('/data/pdf/iqra1/', (req, res) => {
+    res.sendFile(__path + '/database/iqra/1.pdf')
+})
+
+router.get('/data/pdf/iqra2/', (req, res) => {
+    res.sendFile(__path + '/database/iqra/2.pdf')
+})
+
+router.get('/data/pdf/iqra3/', (req, res) => {
+    res.sendFile(__path + '/database/iqra/3.pdf')
+})
+
+router.get('/data/pdf/iqra4/', (req, res) => {
+    res.sendFile(__path + '/database/iqra/4.pdf')
+})
+
+router.get('/data/pdf/iqra5/', (req, res) => {
+    res.sendFile(__path + '/database/iqra/5.pdf')
+})
+
+router.get('/data/pdf/iqra6/', (req, res) => {
+    res.sendFile(__path + '/database/iqra/6.pdf')
+})
+
 router.get('/data/json/tahlil', async (req, res, next) => {
 
        fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/data/dataTahlil.json`))
