@@ -78,6 +78,16 @@ Islamic Api V2 adalah Api yang berisi data2 islami yang lebih lengkap daripada v
 | Maghrib | Menampilkan Data Niat Shalat Maghrib | api/data/json/niatmaghrib |
 | Isya | Menampilkan Data Niat Shalat Isya | api/data/json/niatisya |
 
+## ☪️ Data Iqra PDF
+| Menu | Penjelasan | Endpoint |
+|------------ | ---------| ---------|
+| Iqra 1 | Menampilkan Data Iqra 1 Dalam Bentuk PDF | api/data/pdf/iqra1 |
+| Iqra 2 | Menampilkan Data Iqra 2 Dalam Bentuk PDF | api/data/pdf/iqra2 |
+| Iqra 3 | Menampilkan Data Iqra 3 Dalam Bentuk PDF | api/data/pdf/iqra3 |
+| Iqra 4 | Menampilkan Data Iqra 4 Dalam Bentuk PDF | api/data/pdf/iqra4 |
+| Iqra 5 | Menampilkan Data Iqra 5 Dalam Bentuk PDF | api/data/pdf/iqra5 |
+| Iqra 6 | Menampilkan Data Iqra 6 Dalam Bentuk PDF | api/data/pdf/iqra6 |
+
 ## ☪️ Data API
 | Menu | Penjelasan | Query | Endpoint |
 |------------ | ---------| ---------| ---------|
