@@ -30,6 +30,7 @@ Islamic Api V2 adalah Api yang berisi data2 islami yang lebih lengkap daripada v
 | Data Islami | ✔️ |
 | Hadith | ✔️ |
 | Qur'an | ✔️ |
+| Iqra PDF | ✔️ |
 | Gambar Islami | ✔️ |
 | Quote Islami | ✔️ |
 | Kisah Nabi | ✔️ |
