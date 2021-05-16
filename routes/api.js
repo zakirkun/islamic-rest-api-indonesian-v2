@@ -67,6 +67,43 @@ router.get('/data/hadith', async (req, res, next) => {
 })
 
 
+router.get('/data/masjid', async (req, res, next) => {
+            var provinsi = req.query.provinsi,
+            page = req.query.page
+            
+    if (!provinsi) return res.json({ status : false, creator : 'Zhirrr', message : "masukan parameter provinsi"})
+    if (!page) return res.json({ status : false, creator : 'Zhirrr', message : "masukan parameter page"})
+
+       fetch(encodeURI(`https://masjid-api-indonesia.herokuapp.com/api/search/masjid?provinsi=${provinsi}&page=${page}`))
+        .then(response => response.json())
+        .then(data => {
+        var result = data;
+             res.json({
+                 result
+             })
+         })
+         .catch(e => {
+         	res.json(loghandler.error)
+})
+})
+
+
+router.get('/data/masjid/list-provinsi', async (req, res, next) => {
+            
+       fetch(encodeURI(`https://masjid-api-indonesia.herokuapp.com/api/list-provinsi`))
+        .then(response => response.json())
+        .then(data => {
+        var result = data;
+             res.json({
+                 result
+             })
+         })
+         .catch(e => {
+         	res.json(loghandler.error)
+})
+})
+
+
 router.get('/data/quran', async (req, res, next) => {
             var surah = req.query.surah,
             ayat = req.query.ayat
