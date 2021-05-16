@@ -34,6 +34,7 @@ Islamic Api V2 adalah Api yang berisi data2 islami yang lebih lengkap daripada v
 | Gambar Islami | ✔️ |
 | Quote Islami | ✔️ |
 | Kisah Nabi | ✔️ |
+| Data Masjid Indonesia | ✔️ |
 | DLL | ✔️ |
 | Your Contribute ? | Hm |
 
@@ -99,10 +100,18 @@ Islamic Api V2 adalah Api yang berisi data2 islami yang lebih lengkap daripada v
 | Random AsmaulHusna | Menampilkan Asmaul Husna Secara Random | - | api/data/asmaulhusna |
 | Random Quotes Islami | Menampilkan Quotes2 Islami Secara Random | - | api/data/quotes |
 | Random Gambar Islami | Menampilkan Gambar2 Islami Secara Random | - | api/data/gambar |
+| Data Masjid Indonesia | Menampilkan Data Masjid Indonesia Sesuai Provinsi | provinsi & page | api/data/masjid?provinsi=${nama provinsi}&page=${page nya} |
 
 Note Tambahan : Jika Ingin Melihat ListKota Dari Fitur Jadwal Shalat, Gunakan
 ```
 api/data/jadwalshalat/listkota
+
+```
+Untuk Melihat
+
+Note Tambahan [ Lagi ] : Jika Ingin Melihat ListProvinsi Dari Fitur Data Masjid, Gunakan
+```
+api/data/masjid/list-provinsi
 
 ```
 Untuk Melihat
